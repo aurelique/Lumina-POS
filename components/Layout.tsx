@@ -38,7 +38,7 @@ export const Layout: React.FC<LayoutProps> = ({
     <div className="flex h-screen bg-gray-50 dark:bg-gray-900 overflow-hidden transition-colors duration-300">
       {/* Mobile Header */}
       <div className="md:hidden fixed top-0 w-full bg-white dark:bg-gray-800 border-b dark:border-gray-700 z-50 px-4 py-3 flex justify-between items-center shadow-sm">
-        <h1 className="text-xl font-bold text-indigo-600 dark:text-indigo-400">Lumina</h1>
+        <h1 className="text-xl font-bold text-indigo-600 dark:text-indigo-400">Abysha</h1>
         <div className="flex gap-2">
             <button onClick={toggleDarkMode} className="p-2 text-gray-600 dark:text-gray-300">
                 {darkMode ? <Sun size={20} /> : <Moon size={20} />}
@@ -58,7 +58,7 @@ export const Layout: React.FC<LayoutProps> = ({
         <div>
           <div className="hidden md:flex items-center justify-between px-6 h-20 border-b dark:border-gray-700">
             <h1 className="text-2xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 to-violet-600 dark:from-indigo-400 dark:to-violet-400">
-              Lumina
+              Abysha
             </h1>
             <button 
                 onClick={toggleDarkMode} 
