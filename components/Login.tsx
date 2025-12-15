@@ -39,7 +39,7 @@ export const Login: React.FC<LoginProps> = ({ onLogin }) => {
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-indigo-50 to-blue-100 dark:from-gray-900 dark:to-gray-800 p-4 transition-colors duration-300">
       <div className="bg-white dark:bg-gray-800 w-full max-w-sm rounded-2xl shadow-xl overflow-hidden animate-in fade-in zoom-in duration-300 border dark:border-gray-700">
         <div className="bg-indigo-600 p-8 text-center">
-          <h1 className="text-3xl font-extrabold text-white tracking-tight">Abysha POS</h1>
+          <h1 className="text-3xl font-extrabold text-white tracking-tight">BySha POS</h1>
           <p className="text-indigo-200 mt-2 text-sm">Masuk untuk mengelola toko</p>
         </div>
         
