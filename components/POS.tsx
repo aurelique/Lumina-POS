@@ -126,7 +126,7 @@ export const POS: React.FC = () => {
             <Search className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400" size={20} />
             <input 
                 type="text" 
-                placeholder="Cari menu..." 
+                placeholder="Cari produk..." 
                 value={searchTerm} 
                 onChange={(e) => setSearchTerm(e.target.value)} 
                 className="w-full pl-10 pr-4 py-3 rounded-xl border-none bg-white dark:bg-gray-800 shadow-sm focus:ring-2 focus:ring-indigo-100 dark:focus:ring-indigo-900 outline-none text-gray-800 dark:text-white placeholder-gray-400" 
